@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import Nav from '../components/Nav'
 import SocialNav from '../components/SocialNav'
 import Technologies from '../components/Technologies'
 
@@ -16,6 +17,7 @@ export default function Home() {
       <SocialNav />
       <Header />
       <Technologies />
+      <Nav />
 
     </div>
   )

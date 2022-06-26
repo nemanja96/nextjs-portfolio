@@ -5,7 +5,7 @@ import { FcSmartphoneTablet, FcCommandLine, FcPositiveDynamic, FcHighPriority, F
 const Technologies = () => {
   return (
     <>
-        <div className="py-10 px-4 bg-black-500 flex flex-col items-center pb-40">
+        <div id="experience" className="py-10 px-4 bg-black-500 flex flex-col items-center pb-40">
             <h2 className="text-4xl text-white md:text-[80px] font-medium md:leading-[72px] text-center max-w-2xl"><span className="text-green-500">Tehnologije</span> koje koristim svaki dan</h2>
             <div className="max-w-2xl text-center mt-3 md:mt-6">
                 <p className="text-gray-400 pb-3">U ovom delu želim da Vam predstavim neke od <FcSmartphoneTablet className="inline w-6 h-6" /> tehnologija koje trenutno koristim. Sa svakim novim projektom <FcCommandLine className="inline w-6 h-6" /> se trudim da pronađem najnovija i najbolja rešenja koja će mi pomoći u radu.</p>
