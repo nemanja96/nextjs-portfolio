@@ -21,9 +21,9 @@ const Header = () => {
                 <ReactPlayer url='https://www.youtube.com/watch?v=g1_SzCzxtGE' width="95%" className="video-player" />
             </div>
             <div className="flex-col items-center gap-4 absolute left-0 bottom-40 hidden md:flex">
-              <a href="https://github.com/nemanja96" target="_blank"><BsGithub className="text-white w-6 h-6 hover:text-gray-400 transition" /></a>
-              <a href="https://www.facebook.com/nemanja.radivojevic996/" target="_blank"><BsFacebook className="text-white w-6 h-6 hover:text-gray-400 transition" /></a>
-              <a href="https://www.instagram.com/nemanjaradivojevic/" target="_blank"><BsInstagram className="text-white w-6 h-6 hover:text-gray-400 transition" /></a>
+              <a href="https://github.com/nemanja96" target="_blank" rel="noreferrer"><BsGithub className="text-white w-6 h-6 hover:text-gray-400 transition" /></a>
+              <a href="https://www.facebook.com/nemanja.radivojevic996/" target="_blank" rel="noreferrer"><BsFacebook className="text-white w-6 h-6 hover:text-gray-400 transition" /></a>
+              <a href="https://www.instagram.com/nemanjaradivojevic/" target="_blank" rel="noreferrer"><BsInstagram className="text-white w-6 h-6 hover:text-gray-400 transition" /></a>
             </div>
             <a href="#contact" className="absolute -right-14 bottom-48 font-medium text-basic text-white rotate-90 hover:text-gray-400 transition hidden md:block">Kontaktirajte me</a>
           </div>
