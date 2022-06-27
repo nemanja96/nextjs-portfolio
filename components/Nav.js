@@ -8,8 +8,8 @@ const Nav = () => {
     const [activeNav, setActiveNav] = useState('#');
 
   return (
-    <div className="w-full fixed bottom-8 flex justify-center">
-        <nav className="bg-white flex gap-2 w-max z-10 px-6 py-2 rounded-full">
+    <div className="w-full fixed bottom-8 flex justify-center z-50">
+        <nav className="bg-white flex gap-2 w-max z-50 px-6 py-2 rounded-full shadow-md">
             <a href="#" onClick={() => setActiveNav('#')} className={ activeNav === '#' ? 'active bg-black-500 p-4 rounded-full' : 'p-4 rounded-full hover:bg-gray-300' } title="Početak"><AiOutlineHome className={ activeNav === '#' ? 'text-white w-5 h-5' : 'w-5 h-5' } /></a>
             <a href="#experience" onClick={() => setActiveNav('#experience')} className={ activeNav === '#experience' ? 'active bg-black-500 p-4 rounded-full' : 'p-4 rounded-full hover:bg-gray-300' } title="Iskustvo"><BiBook  className={ activeNav === '#experience' ? 'text-white w-5 h-5' : 'w-5 h-5' } /></a>
             <a href="#about" onClick={() => setActiveNav('#about')} className={ activeNav === '#about' ? 'active bg-black-500 p-4 rounded-full' : 'p-4 rounded-full hover:bg-gray-300' } title="O meni"><AiOutlineUser  className={ activeNav === '#about' ? 'text-white w-5 h-5' : 'w-5 h-5' } /></a>

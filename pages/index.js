@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import About from '../components/About'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import SocialNav from '../components/SocialNav'
@@ -18,6 +19,7 @@ export default function Home() {
       <Header />
       <Technologies />
       <Nav />
+      <About />
 
     </div>
   )
