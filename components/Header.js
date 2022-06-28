@@ -1,4 +1,5 @@
 import ReactPlayer from 'react-player'
+import Link from 'next/link';
 import { GrDownload } from 'react-icons/gr';
 import { FaReact } from 'react-icons/fa';
 import { GiHand } from 'react-icons/gi';
@@ -14,7 +15,7 @@ const Header = () => {
             <h2 className="text-3xl mt-2 text-center text-yellow-500 md:text-[80px] leading-none">Front End Developer</h2>
             <p className="text-center text-white text-lg font-normal md:max-w-2xl pt-5"><strong>Dobrodošli u moj digitalni svet!</strong> Ovde možete pročitati nešto više o meni, pogledati moje prethodne projekte i kontaktirati me.</p>
             <div className="flex flex-col md:flex-row mt-7 mb-9 gap-5">
-              <a href="" download className="bg-green-500 rounded-full px-12 py-5 flex justify-center items-center gap-3 border-2 border-solid border-green-500 font-medium text-black-500 hover:bg-transparent hover:scale-90 hover:transition-all hover:shadow-lg hover:shadow-green-500 hover:text-white" >Preuzmite CV <GrDownload className="animate-bounce" /></a>
+              <a href="#" download className="bg-green-500 rounded-full px-12 py-5 flex justify-center items-center gap-3 border-2 border-solid border-green-500 font-medium text-black-500 hover:bg-transparent hover:scale-90 hover:transition-all hover:shadow-lg hover:shadow-green-500 hover:text-white" >Preuzmite CV <GrDownload className="animate-bounce" /></a>
               <a href="#portfolio" className="rounded-full px-12 py-5 flex justify-center items-center gap-3 border-2 border-solid border-green-500 text-white font-medium hover:scale-90 hover:transition-all hover:shadow-lg hover:shadow-green-500 hover:text-white" >Prethodni projekti <FaReact className="animate-spin" /></a>
             </div>
             <div className="max-w-2xl w-full flex justify-center">
@@ -25,7 +26,7 @@ const Header = () => {
               <a href="https://www.facebook.com/nemanja.radivojevic996/" target="_blank" rel="noreferrer"><BsFacebook className="text-white w-6 h-6 hover:text-gray-400 transition" /></a>
               <a href="https://www.instagram.com/nemanjaradivojevic/" target="_blank" rel="noreferrer"><BsInstagram className="text-white w-6 h-6 hover:text-gray-400 transition" /></a>
             </div>
-            <a href="#contact" className="absolute -right-14 bottom-48 font-medium text-basic text-white rotate-90 hover:text-gray-400 transition hidden md:block">Kontaktirajte me</a>
+            <a href="#contact" target="_blank" rel="noreferrer" className="absolute -right-14 bottom-48 font-medium text-basic text-white rotate-90 hover:text-gray-400 transition hidden md:block">Kontaktirajte me</a>
           </div>
         </div>
     </>

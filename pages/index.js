@@ -17,9 +17,9 @@ export default function Home() {
       </Head>
 
       <SocialNav />
+      <Nav />
       <Header />
       <Technologies />
-      <Nav />
       <About />
       <Portfolio />
 
