@@ -12,7 +12,7 @@ const Portfolio = () => {
   return (
     <>
         <div id="portfolio" className="flex justify-center bg-black-500">
-            <div className="max-w-6xl py-10 md:text-left py-10 mb-32 px-4 md:py-24 flex flex-col items-center gap-10 md:gap-20 md:pb-40">
+            <div className="max-w-6xl py-10 md:text-left py-10 px-4 md:py-24 flex flex-col items-center gap-10 md:gap-20">
                 <div className="text-center md:text-left">
                     <h2 className="text-white text-4xl md:text-[112px] font-bold md:leading-[101px] max-w-2xl mb-6">Moje <span className="text-yellow-500">digitalno</span> igralište.</h2>
                     <p className="text-white">Ovo je moje digitalno igralište za lične eksperimente</p>
