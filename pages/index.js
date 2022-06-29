@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import About from '../components/About'
 import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import Portfolio from '../components/Portfolio'
@@ -24,6 +25,7 @@ export default function Home() {
       <About />
       <Portfolio />
       <Contact />
+      <Footer />
 
     </div>
   )

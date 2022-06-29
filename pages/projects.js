@@ -8,6 +8,8 @@ import photo from '../public/04.png';
 import photo2 from '../public/02.png';
 import photo3 from '../public/03.png';
 import SocialNav from '../components/SocialNav';
+import Contact from '../components/Contact.js';
+import Footer from '../components/Footer.js';
 
 const Portfolio = () => {
 
@@ -57,6 +59,8 @@ const Portfolio = () => {
                 }
             </div>
         </div>
+        <Contact />
+        <Footer />
     </div>
   )
 }

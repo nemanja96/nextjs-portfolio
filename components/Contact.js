@@ -21,24 +21,24 @@ const Contact = () => {
 
   return (
     <>
-        <div id="contact" className="py-10 px-4 bg-black-500 flex flex-col items-center pb-32 md:pb-40">
+        <div id="contact" className="py-10 px-4 bg-black-500 flex flex-col items-center pb-5 md:pb-40">
             <div className="max-w-3xl w-full flex flex-col items-center">
-                <h2 className="text-4xl text-white md:text-[80px] font-medium md:leading-[72px] text-center max-w-2xl mb-14"><span className="text-green-500">Kontaktirajte</span> me</h2> 
-                <div className="flex gap-10 w-full">
+                <h2 className="text-4xl text-white md:text-[80px] font-medium md:leading-[72px] text-center max-w-2xl mb-10 md:mb-14"><span className="text-green-500">Kontaktirajte</span> me</h2> 
+                <div className="flex flex-col md:flex-row gap-10 w-full">
                     <div className="flex flex-col gap-4">
-                        <a href="mailto:kontakt.nemanjaradivojevic.rs" target="_blank" className="bg-green-500 px-8 py-4 rounded-2xl flex flex-col items-center">
+                        <a href="mailto:kontakt.nemanjaradivojevic.rs" target="_blank" rel="noreferrer" className="bg-green-500 px-8 py-4 rounded-2xl flex flex-col items-center">
                             <MdOutlineEmail className="w-6 h-6" />
                             <h4>E-mail</h4>
                             <h5>kontakt@nemanjaradivojevic.rs</h5>
                             <p className="text-black-500">Pošaljite poruku</p>
                         </a>
-                        <a href="https://m.me/nemanja.radivojevic996" target="_blank" className="bg-green-500 p-4 rounded-2xl flex flex-col items-center">
+                        <a href="https://m.me/nemanja.radivojevic996" target="_blank" rel="noreferrer" className="bg-green-500 p-4 rounded-2xl flex flex-col items-center">
                             <RiMessengerLine className="w-6 h-6" />
                             <h4>Messenger</h4>
                             <h5>nemanja.radivojevic996</h5>
                             <p className="text-black-500">Pošaljite poruku</p>
                         </a>
-                        <a href="https://api.whatsapp.com/send?phone=+381603011603" target="_blank" className="bg-green-500 p-4 rounded-2xl flex flex-col items-center">
+                        <a href="https://api.whatsapp.com/send?phone=+381603011603" target="_blank" rel="noreferrer" className="bg-green-500 p-4 rounded-2xl flex flex-col items-center">
                             <RiWhatsappLine className="w-6 h-6" />
                             <h4>WhatsApp</h4>
                             <h5>+381 60 301 16 03</h5>
