@@ -1,21 +1,20 @@
 import { FaReact, FaHtml5, FaCss3Alt, FaSass, FaWordpress } from 'react-icons/fa';
 import { SiNextdotjs, SiTailwindcss, SiJavascript } from 'react-icons/si';
-import { FcSmartphoneTablet, FcCommandLine, FcPositiveDynamic, FcHighPriority, FcGlobe } from 'react-icons/fc';
+import { FcSmartphoneTablet, FcCommandLine, FcPositiveDynamic, FcHighPriority } from 'react-icons/fc';
 
 const Technologies = () => {
   return (
     <>
-        <div id="experience" className="py-10 px-4 pb-16 bg-black-500 flex flex-col items-center md:pb-40">
-            <h2 className="text-4xl text-white md:text-[80px] font-medium md:leading-[72px] text-center max-w-2xl"><span className="text-green-500">Tehnologije</span> koje koristim svaki dan</h2>
+        <div id="experience" className="py-10 px-4 pb-16 bg-black-500 flex flex-col items-center md:pb-28">
+            <h2 className="text-4xl text-white md:text-[80px] font-medium md:leading-[72px] text-center max-w-2xl"><span className="text-green-500">Tehnologije</span> koje svakodnevno koristim</h2>
             <div className="max-w-2xl text-center mt-3 md:mt-6">
-                <p className="text-gray-400 pb-3">U ovom delu želim da Vam predstavim neke od <FcSmartphoneTablet className="inline w-6 h-6" /> tehnologija koje trenutno koristim. Sa svakim novim projektom <FcCommandLine className="inline w-6 h-6" /> se trudim da pronađem najnovija i najbolja rešenja koja će mi pomoći u radu.</p>
-                <p className="text-gray-400 pb-3">Zbog veoma brzo rastuće industrije <FcPositiveDynamic className="inline w-6 h-6" />, svakog dana se trudim da naučim nešto novo i razvijem bolje veštine za rešavanje <FcHighPriority className="inline w-6 h-6" /> problema.</p>
-                <p className="text-gray-400"><FcGlobe className="inline w-6 h-6" /> Svet programiranja može biti jako zanimljivo mesto, ako si uporan/na i nikada ne želiš da prestaneš sa učenjem. Zato, odoh da &quot;grejem&quot; stolicu.</p>
+                <p className="text-gray-400 pb-3">U ovom delu želeo bih da Vam predstavim neke od <FcSmartphoneTablet className="inline w-6 h-6" /> tehnologija koje trenutno koristim. Sa svakim novim projektom <FcCommandLine className="inline w-6 h-6" /> trudim se da pronađem najbolja i najnovija rešenja koja će mi pomoći u radu.</p>
+                <p className="text-gray-400 pb-3">Zbog veoma brzog razvoja industrije <FcPositiveDynamic className="inline w-6 h-6" />, svakog dana želim da naučim nešto novo i steknem što bolje veštine za rešavanje problema <FcHighPriority className="inline w-6 h-6" />.</p>
             </div>
             <div className="grid grid-cols-1 gap-5 mt-10 px-4 md:grid-cols-4 md:w-full max-w-5xl md:mt-16 md:gap-8">
                 <div className="bg-green-500 p-5 rounded-2xl rotate-12 transition w-full hover:rotate-0">
                     <FaReact className="text-5xl mb-2" />
-                    <h4 className="text-gray-600 font-medium text-basic">JS Framework</h4>
+                    <h4 className="text-gray-600 font-medium text-basic">JS Library</h4>
                     <h3 className="font-bold text-2xl color-black-500">React JS</h3>
 
                 </div>

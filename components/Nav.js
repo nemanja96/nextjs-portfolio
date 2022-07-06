@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import {AiOutlineHome, AiOutlineUser, AiOutlinePhone} from 'react-icons/ai';
-import {BiBook, BiMessageSquareDetail} from 'react-icons/bi';
-import {HiOutlineCode, HiOutlinePhone} from 'react-icons/hi';
+import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai';
+import {BiBook} from 'react-icons/bi';
+import {HiOutlineCode} from 'react-icons/hi';
 import {TbPhone} from 'react-icons/tb';
 
 const Nav = () => {
