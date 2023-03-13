@@ -1,6 +1,6 @@
 # Portfolio Website
 
-<a href="https://portfolio.nemanjaradivojevic.rs/" target="_blank">WEBSITE LINK</a>
+<a href="https://nemanjaradivojevic.rs/" target="_blank">WEBSITE LINK</a>
 
 ## Desktop Version
 
